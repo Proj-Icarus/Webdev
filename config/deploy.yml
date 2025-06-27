@@ -20,6 +20,7 @@ registry:
     - KAMAL_REGISTRY_PASSWORD
 
 builder:
+  context: .
   arch: amd64
 
 env:
