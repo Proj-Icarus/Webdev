@@ -42,3 +42,4 @@ yarn-debug.log*
 
 .env
 .kamal/secrets
+.dockerignore
