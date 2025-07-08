@@ -43,6 +43,7 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', git: "https://github.com/sparklemotion/sqlite3-ruby"
   gem "capistrano", "~> 3.10"
+  gem 'capistrano-bundler', '~> 2.0'
   gem "capistrano-rails", "~> 1.3"
 end
 
