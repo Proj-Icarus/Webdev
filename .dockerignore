@@ -40,3 +40,4 @@ README.md
 **/db/*.sqlite3-journal
 **/db/*.sqlite3-*
 **/.bundle
+**/config/database.yml
