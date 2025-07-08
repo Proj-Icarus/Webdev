@@ -4,7 +4,7 @@ lock "~> 3.19.2"
 set :application, "Web-App"
 set :repo_url, "git@github.com:Proj-Icarus/Webdev.git"
 
-require "bundler/capistrano" 
+append :linked_dirs, '.bundle'
 
 after 'deploy:update_code', 'deploy:migrate'
 
