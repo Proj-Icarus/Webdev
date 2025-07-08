@@ -44,6 +44,7 @@ group :development do
   gem 'sqlite3', git: "https://github.com/sparklemotion/sqlite3-ruby"
   gem "capistrano", "~> 3.10"
   gem 'capistrano-bundler', '~> 2.0'
+  gem 'rvm1-capistrano3', require: false
   gem "capistrano-rails", "~> 1.3"
 end
 
