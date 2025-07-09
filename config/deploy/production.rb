@@ -1,3 +1,11 @@
+set :stage, :staging
+
+role :app, %w{intern@10.160.0.17}
+role :web, %w{intern@10.160.0.17}
+role :db,  %w{intern@10.160.0.17}
+
+server 'intern@10.160.0.17', roles: %w{NewApp}, my_property: :my_value
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

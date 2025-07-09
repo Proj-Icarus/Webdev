@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:Proj-Icarus/Webdev.git"
 
 append :linked_dirs, '.bundle'
 
-after 'deploy:update_code', 'deploy:migrate'
+#after 'deploy:update_code', 'deploy:migrate'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
